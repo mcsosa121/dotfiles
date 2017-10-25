@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true,
+    "java.errors.incompleteClasspath.severity": "ignore"
+}

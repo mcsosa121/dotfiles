@@ -1,0 +1,174 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {   
+        //prev terminal
+        "key": "ctrl+shift+j", 
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus" },
+    {   
+        //next terminal
+        "key": "ctrl+shift+k", 
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus" },
+    {   
+        //delete terminal
+        "key": "ctrl+shift+d",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        //new terminal
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        //toggle terminal view
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        //close sidebar when in terminal
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "terminalFocus"
+    },
+    {
+        //prev tab
+        "key": "ctrl+shift+z",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        //next tab
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        //beginning of line
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        //end of line
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        // prev line
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        // next line
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        // prev char
+        "key": "ctrl+j",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        // next char
+        "key": "ctrl+k",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        // next word 2
+        "key": "ctrl+shift+k",
+        "command": "cursorWordEndRight",
+        "when": "editorTextFocus"
+    },
+    {
+        // prev word 2
+        "key": "ctrl+shift+j",
+        "command": "cursorWordEndLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
+    },
+
+    {
+        "key": "ctrl+shift+x",
+        "command": "-workbench.view.extensions"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "-redo",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "end",
+        "command": "-cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "home",
+        "command": "-cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "workbench.action.debug.restart",
+        "when": ""
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "-workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+f6",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    }
+]

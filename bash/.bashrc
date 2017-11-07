@@ -139,10 +139,6 @@ alias studio="/opt/android-studio/bin/studio.sh"
 #node location
 export PATH=$PATH:$HOME/Downloads/librarie/nodejs/bin
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-#export PATH="$PATH:$HOME/.rvm/bin"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # custom aliases
 alias rserv="python3 manage.py runserver 127.0.0.1:8000"
 alias mmigr="python3 manage.py makemigrations"
@@ -190,3 +186,9 @@ export PYSPARK_PYTHON=/home/$USER/anaconda3/bin/python
 #######################
 ## Rust installation ##
 export PATH="$HOME/.cargo/bin:$PATH"
+export FDK_EXE="/home/mike/bin/FDK/Tools/linux"
+export PATH=${PATH}:"/home/mike/bin/FDK/Tools/linux"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+#export PATH="$PATH:$HOME/.rvm/bin"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

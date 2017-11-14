@@ -142,6 +142,7 @@ alias hadstart="/usr/local/hadoop/sbin/start-dfs.sh; /usr/local/hadoop/sbin/star
 alias hadstop="/usr/local/hadoop/sbin/stop-dfs.sh; /usr/local/hadoop/sbin/stop-yarn.sh"
 
 alias spotify="/usr/bin/spotify --force-device-scale-factor=1.5"
+alias octaveng="/usr/bin/octave --no-gui"
 #### HADOOP CONFIG ####
 
 export HADOOP_INSTALL=/usr/local/hadoop

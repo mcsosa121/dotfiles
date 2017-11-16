@@ -97,7 +97,10 @@ source $ZSH/oh-my-zsh.sh
 export TERM="xterm-256color"
 
 # added by Anaconda2 4.3.1 installer
-#export PATH="/home/mike/anaconda2/bin:$PATH"
+# export PATH="/home/mike/anaconda2/bin:$PATH"
+# Conda 3 
+export PATH="/home/mike/anaconda3/bin:$PATH"
+
 # clion
 export PATH="/usr/local/clion-2017.2.1/bin:$PATH"
 # OPAM configuration

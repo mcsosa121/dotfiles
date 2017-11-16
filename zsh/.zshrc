@@ -146,6 +146,9 @@ alias hadstop="/usr/local/hadoop/sbin/stop-dfs.sh; /usr/local/hadoop/sbin/stop-y
 
 alias spotify="/usr/bin/spotify --force-device-scale-factor=1.5"
 alias octaveng="/usr/bin/octave --no-gui"
+
+# emacs no window alias (aka in terminal)
+alias enw="emacs -nw"
 #### HADOOP CONFIG ####
 
 export HADOOP_INSTALL=/usr/local/hadoop

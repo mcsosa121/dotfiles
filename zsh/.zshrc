@@ -134,7 +134,7 @@ alias svenv="source venv/bin/activate"
 
 alias esstart="sudo /etc/init.d/elasticsearch start"
 alias esstop="sudo /etc/init.d/elasticsearch stop"
-alias redis-server="~/Documents/webstuff/redis-stable/src/redis-server"
+alias redis-server="~/Documents/coding/webstuff/libraries/redis-stable/src/redis-server"
 alias pgstart="sudo -u postgres pg_ctlcluster 9.6 main start"
 alias pgstop="sudo -u postgres pg_ctlcluster 9.6 main stop"
 
